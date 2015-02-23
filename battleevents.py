@@ -6,6 +6,8 @@
 import random
 import sys
 
+random.seed()
+
 actions = {0:{0:{0:'Squad Leader Injured', 
                  1:'Platoon Leader Injured',
                  2:'Battalion Leader Injured',
@@ -93,7 +95,6 @@ actions = {0:{0:{0:'Squad Leader Injured',
            
 def recurseRand(d):
     if type(d)==type({}):
-        random.seed()
         rnd = random.randint(0, len(d)-1)
         recurseRand(d[rnd])
     else:
