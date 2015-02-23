@@ -1,3 +1,8 @@
+# Copyright 2015@Mattis Haase
+# do whatever you want with this
+# List of events based on: http://www.reddit.com/r/DnDBehindTheScreen/comments/2uyvxt/a_table_for_random_events_taking_place_in_a_large/
+# Because who wants to look all this stuff up.
+
 import random
 import sys
 
